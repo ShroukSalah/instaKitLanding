@@ -413,6 +413,10 @@ footer .input-group img {
 @media (min-width: 768px) and (max-width: 992px) {}
 
 @media (max-width: 768px) {
+    header .logo {
+        width: 137px;
+    }
+
     .container-fluid {
         padding-inline: 20px;
     }
