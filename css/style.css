@@ -253,6 +253,7 @@ header .hero .navbar .contactUs {
     background-size: auto, auto;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    height: auto;
 }
 
 #standOut .swiper {
