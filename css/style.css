@@ -382,9 +382,23 @@ footer {
     /* background: linear-gradient(90deg, rgba(103, 62, 182, 0.40) 0%, rgba(41, 25, 73, 0.40) 107.12%); */
     background-color: linear-gradient(90deg, rgba(103, 62, 182, 0.40) 0%, rgba(41, 25, 73, 0.40) 107.12%);
     background-blend-mode: overlay;
+    position: relative
 
 }
-
+.footerBG{
+    position: relative;
+    z-index: 999;
+}
+.footerBG:after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(103, 62, 182, 0.40) 0%, rgba(41, 25, 73, 0.40) 107.12%);
+    z-index: -1;
+}
 .footerBG {
     background-image: url("../images/footer1.png"), url("../images/footer2.png");
     background-size: auto, auto;
@@ -667,7 +681,7 @@ footer .input-group img {
         @media (max-width: 768px) {
 
             #ourMission .main-img {
-                height: 200px;
+                height: 200px !important;
                 
             }
         }
