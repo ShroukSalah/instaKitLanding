@@ -660,3 +660,19 @@ footer .input-group img {
         padding-inline-start: 0;
     }
 }
+
+
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) {
+        @media (max-width: 768px) {
+
+            #ourMission .main-img {
+                height: 200px;
+                
+            }
+        }
+
+       
+
+    }
+}
