@@ -235,8 +235,14 @@ header .hero .navbar .contactUs {
     background-image: url(../images/standOutBG.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
 }
-
+#standOut:before{
+    content:url(../images/Ellipse.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .steps .step p {
     color: #BEC0BE;
     font-weight: 600;
