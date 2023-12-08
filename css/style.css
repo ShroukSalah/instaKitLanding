@@ -418,13 +418,13 @@ footer .input-group img {
     }
 
     header .f-56 {
-        font-size: 35px !important;
+        font-size: 31px !important;
     }
 
     header .f-22 {
         font-size: 15px !important;
         text-transform: initial !important;
-        padding-inline: 10px;
+        /* padding-inline: 10px; */
     }
 
     header .f-16 {
