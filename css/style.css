@@ -104,7 +104,7 @@ header {
 header .hero {
     background-image: url(../images/Shapes.png);
     background-size: contain;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
