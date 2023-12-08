@@ -300,8 +300,8 @@ input {
     font-family: 'Font Awesome 5 Free';
     color: #6A7178;
 } */
-select option:checked ,
-select option:hover  {
+select option:checked,
+select option:hover {
     background-color: #5D38A4 !important;
     color: #fff !important;
 }
@@ -412,6 +412,10 @@ footer .input-group img {
 @media (min-width: 768px) and (max-width: 992px) {}
 
 @media (max-width: 768px) {
+    .container-fluid {
+        padding-inline: 20px;
+    }
+
     header .f-56 {
         font-size: 35px !important;
     }
