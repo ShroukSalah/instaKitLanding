@@ -539,7 +539,8 @@ footer .input-group img {
 
     #standOut .swiper-slide {
         width: 80% !important;
-        margin-inline-start: 10px;
+        margin-inline-start: 20px;
+        margin-inline-end: 0 !important;
     }
 
     #standOut .swiper-slide .f-24 {
@@ -574,7 +575,8 @@ footer .input-group img {
         text-align: center;
         margin-top: 30px;
     }
-    .steps .step{
+
+    .steps .step {
         padding-inline-start: 0;
     }
 }
