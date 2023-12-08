@@ -438,7 +438,7 @@ footer .input-group img {
     }
 
     #ourMission .f-40 {
-        font-size: 27px;
+        font-size: 25px;
     }
 
     #ourMission .title {
@@ -534,7 +534,7 @@ footer .input-group img {
     }
 
     #standOut .f-40 {
-        font-size: 25px;
+        font-size: 27px;
     }
 
     #standOut .swiper-slide {
@@ -573,5 +573,8 @@ footer .input-group img {
     .copyRight p {
         text-align: center;
         margin-top: 30px;
+    }
+    .steps .step{
+        padding-inline-start: 0;
     }
 }
