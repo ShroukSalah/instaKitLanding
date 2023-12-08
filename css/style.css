@@ -427,6 +427,12 @@ footer .input-group img {
 /* =================================
      media
   ==================================== */
+@media (min-width: 1140px) and (min-width: 1024px) {
+    .container-fluid.px-lg-72 {
+        padding-inline: 0px !important;
+    }
+
+}
 
 @media (min-width: 992px) {
     .w-lg-70 {
