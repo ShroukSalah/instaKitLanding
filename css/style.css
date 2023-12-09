@@ -528,6 +528,7 @@ footer .input-group img {
         width: 100%;
         object-fit: cover;
         margin-bottom: 24px;
+        min-height: 200px !important;
     }
 
     #ourMission .f-40 {
