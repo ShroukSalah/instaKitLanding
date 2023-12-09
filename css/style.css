@@ -237,12 +237,14 @@ header .hero .navbar .contactUs {
     background-size: 100% 100%;
     position: relative;
 }
-#standOut:before{
-    content:url(../images/Ellipse.png);
+
+#standOut:before {
+    content: url(../images/Ellipse.png);
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .steps .step p {
     color: #BEC0BE;
     font-weight: 600;
@@ -383,14 +385,15 @@ footer {
     background-color: linear-gradient(90deg, rgba(103, 62, 182, 0.40) 0%, rgba(41, 25, 73, 0.40) 107.12%);
     background-blend-mode: overlay;
     position: relative
-
 }
-.footerBG{
+
+.footerBG {
     position: relative;
     z-index: 999;
 }
-.footerBG:after{
-    content:"";
+
+.footerBG:after {
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -399,6 +402,7 @@ footer {
     background: linear-gradient(90deg, rgba(103, 62, 182, 0.40) 0%, rgba(41, 25, 73, 0.40) 107.12%);
     z-index: -1;
 }
+
 .footerBG {
     background-image: url("../images/footer1.png"), url("../images/footer2.png");
     background-size: auto, auto;
@@ -675,18 +679,28 @@ footer .input-group img {
     }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @media (max-width: 900px) {
+
+        #ourMission .main-img {
+            height: 200px !important;
+            max-height: 200px !important;
+        }
+    }
+
+}
 
 @media not all and (min-resolution:.001dpcm) {
     @supports (-webkit-appearance:none) {
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
 
             #ourMission .main-img {
                 height: 200px !important;
-                
+                max-height: 200px !important;
             }
         }
 
-       
+
 
     }
 }
