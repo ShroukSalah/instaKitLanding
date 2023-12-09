@@ -680,13 +680,13 @@ footer .input-group img {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-    @media (max-width: 900px) {
+    /* @media (max-width: 900px) { */
 
         #ourMission .main-img {
             height: 200px !important;
             max-height: 200px !important;
         }
-    }
+    /* } */
 
 }
 
